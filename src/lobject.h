@@ -170,7 +170,7 @@ typedef struct lua_TValue TValue;
 
 #define l_isfalse(o)	(ttisnil(o) || (ttisboolean(o) && bvalue(o) == 0))
 
-
+// 用来判断哪些数据类型需要GC操作
 #define iscollectable(o)	(rttype(o) & BIT_ISCOLLECTABLE)
 
 

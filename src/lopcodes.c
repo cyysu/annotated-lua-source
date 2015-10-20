@@ -16,7 +16,7 @@
 
 
 /* ORDER OP */
-
+// lua 操作码
 LUAI_DDEF const char *const luaP_opnames[NUM_OPCODES+1] = {
   "MOVE",
   "LOADK",
